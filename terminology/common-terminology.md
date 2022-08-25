@@ -23,7 +23,7 @@ This document defines the following terms:
 
 3. confidential container: an Open Container Initiative (OCI)-compliant [^2] container that is executed inside a hardware-based TEE. 
 
-4. confidential VM: a virtual machine that is executed inside a hardware-based TEE, whereby code and data within the entire VM image is protected from the hypervisor and the host operating system.
+4. confidential VM: a virtual machine whereby business code and data are protected while in-use by a hardware-based TEE from any other processes executed on the same processing unit but not included in this VM (such as the hypervisor and the host operating system).
 
 
 ## Isolation Methodologies
